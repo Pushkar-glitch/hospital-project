@@ -1,0 +1,867 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 2500px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.head-div {
+    position: sticky;
+    position: fixed;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background: transparent;
+    padding: 20px;
+    background: rgba(253, 251, 251, 0.7);
+    backdrop-filter: blur(5px);
+    z-index: 100000;
+}
+
+#home-button {
+    /* styles for the home button */
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    left: 350px;
+    text-align: center;
+    display: flex;
+}
+
+#home-button:hover {
+    background-color: #0D47A1;
+}
+
+#home-button:active {
+    background-color: #003087;
+}
+
+#header-logo1 {
+    display: flex;
+    position: relative;
+    left: 200px;
+    text-decoration: none;
+    border: 0;
+    width: 162px;
+    height: 113px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    height: 113px;
+    background: transparent;
+    background: rgba(253, 251, 251, 0.7);
+}
+
+#dropdown-button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    left: 350px;
+    text-align: center;
+    display: flex;
+}
+
+#dropdown-button:hover {
+    background-color: #0D47A1;
+}
+
+#dropdown-button:active {
+    background-color: #003087;
+}
+
+#page-button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    left: 350px;
+    display: flex;
+    text-align: center;
+}
+
+#page-button:hover {
+    background-color: #0D47A1;
+}
+
+#page-button:active {
+    background-color: #003087;
+}
+
+#about-button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    left: 350px;
+    text-align: center;
+    display: flex;
+}
+
+#about-button:hover {
+    background-color: #0D47A1;
+}
+
+#about-button:active {
+    background-color: #003087;
+}
+
+#service-button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    left: 350px;
+    text-align: center;
+    display: flex;
+}
+
+#service-button:hover {
+    background-color: #0D47A1;
+}
+
+#service-button:active {
+    background-color: #003087;
+}
+
+#news-button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    left: 350px;
+    text-align: center;
+    display: flex;
+}
+
+#news-button:hover {
+    background-color: #0D47A1;
+}
+
+#news-button:active {
+    background-color: #003087;
+}
+
+#contact-button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    left: 350px;
+    text-align: center;
+    display: flex;
+}
+
+#contact-button:hover {
+    background-color: #0D47A1;
+}
+
+#contact-button:active {
+    background-color: #003087;
+}
+
+#emergency-button {
+    background-color: #f32121;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    left: 350px;
+    text-align: center;
+    display: flex;
+}
+
+#emergency-button:hover {
+    background-color: #c21d0f;
+}
+
+#emergency-button:active {
+    background-color: #481502;
+}
+
+#hero-image1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    height: 700px;
+}
+
+.about-page {
+    height: 380px;
+    position: relative;
+    top: 1700px;
+    background: #000;
+}
+
+section {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-head1 {
+    position: relative;
+    top: 280px;
+    color: #0f0f0f;
+    font-size: 40px;
+    margin-bottom: 20px;
+    left: 150px;
+}
+
+.hero-head2 {
+    position: relative;
+    top: 250px;
+    color: #0f0f0f;
+    font-size: 20px;
+    margin-bottom: 20px;
+    left: 150px;
+}
+
+div.container-footer.w-container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    padding-bottom: 40px;
+    padding-top: 70px;
+}
+
+div.container-footer.w-container:after {
+    clear: both;
+    content: " ";
+    display: table;
+    grid-column-end: 2;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-row-start: 1;
+}
+
+div.container-footer.w-container:before {
+    content: " ";
+    display: table;
+    grid-column-end: 2;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-row-start: 1;
+}
+
+div.w-row {
+    box-sizing: border-box;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+div.w-row:after {
+    clear: both;
+    content: " ";
+    display: table;
+    grid-column-end: 2;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-row-start: 1;
+}
+
+div.w-row:before {
+    content: " ";
+    display: table;
+    grid-column-end: 2;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-row-start: 1;
+}
+
+div.footer-column.w-clearfix.w-col.w-col-4 {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    width: 33.3333%;
+}
+
+div.footer-column.w-clearfix.w-col.w-col-4:after {
+    clear: both;
+    content: " ";
+    display: table;
+    grid-column-end: 2;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-row-start: 1;
+}
+
+div.footer-column.w-clearfix.w-col.w-col-4:before {
+    content: " ";
+    display: table;
+    grid-column-end: 2;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-row-start: 1;
+}
+
+img.failory-logo-image {
+    border-width: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+h3.footer-failory-name {
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 24px;
+}
+
+p.footer-description-failory {
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: .5px;
+    line-height: 1.5em;
+    margin-bottom: 16px;
+    margin-top: 15px;
+}
+
+br {
+    box-sizing: border-box;
+}
+
+div.footer-column.w-col.w-col-8 {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    width: 66.6667%;
+}
+
+div.w-col.w-col-8 {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 66.6667%;
+}
+
+div.w-col.w-col-7.w-col-small-6.w-col-tiny-7 {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 58.3333%;
+}
+
+h3.footer-titles {
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.1em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 24px;
+}
+
+p.footer-links {
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: .5px;
+    line-height: 1.8em;
+    margin-bottom: 16px;
+    margin-top: 2px;
+}
+
+a {
+    background-color: transparent;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: Lato, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
+a:active {
+    outline: 0;
+}
+
+a:hover {
+    outline: 0;
+}
+
+span.footer-link {
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+}
+
+span.footer-link:hover {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+span {
+    box-sizing: border-box;
+}
+
+strong {
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+div.w-col.w-col-5.w-col-small-6.w-col-tiny-5 {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 41.6667%;
+}
+
+div.column-center-mobile.w-col.w-col-4 {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 33.3333%;
+}
+
+a.footer-social-network-icons.w-inline-block {
+    background-color: transparent;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Lato, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin-right: 8px;
+    margin-top: 10px;
+    max-width: 100%;
+    opacity: .8;
+    text-decoration: none;
+}
+
+a.footer-social-network-icons.w-inline-block:active {
+    outline: 0;
+}
+
+a.footer-social-network-icons.w-inline-block:hover {
+    opacity: 1;
+    outline: 0;
+}
+
+img {
+    border-width: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+p.footer-description {
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: .5px;
+    line-height: 1.5em;
+    margin-bottom: 16px;
+    margin-top: 15px;
+}
+
+strong.link-email-footer {
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.main-page-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: #fafbfb;
+    top: 200px;
+    height: 1990px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.head-pageicon-container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 350px;
+    top: 1000px;
+    background-color: #fbf9f9;
+    overflow: hidden;
+}
+
+.head-pageicon-container h1 {
+    font-size: 35px;
+    color: #0b0b0b;
+    margin-top: 75px;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+
+.icon-doc-about {
+    justify-content: center;
+    position: absolute;
+    top: 140px;
+}
+
+.info-doc-about {
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+}
+
+.head-about-us {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 650px;
+    background-color: rgb(246, 248, 245);
+    top: 1350px;
+}
+
+.head-about-us-head {
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    font-size: 27px;
+    left: 100px;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.about-us-intro {
+    color: #101011;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    left: 45px;
+    top: 30px;
+    display: inline-table;
+    padding-inline: 7%;
+}
+
+.imagedoc {
+    position: absolute;
+    top: 0px;
+    left: 800px;
+    background: #fdfbfb;
+    display: flex;
+    width: 673px;
+    height: 650px;
+}
+
+.about-us-image {
+    position: relative;
+    left: 50px;
+    display: flex;
+    text-decoration: none;
+    border: 0;
+    width: 462px;
+    height: 613px;
+    margin: 0;
+    padding: 0;
+}
+
+.specilaity {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(250, 248, 249);
+    top: 0px;
+}
+
+.best-service {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 25px;
+    padding-left: 15px;
+    position: relative;
+    top: 50px;
+    height: 100px;
+    left: 380px;
+    width: 700px;
+}
+
+.hospital-icon {
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 700px;
+    height: 50px;
+}
+
+.specilaity1 {
+    display: flex;
+    height: 350px;
+    width: 50%;
+    position: relative;
+    top: 100px;
+    right: 0px;
+    background-color: rgb(247, 245, 248);
+}
+
+.specilaity2 {
+    display: flex;
+    height: 350px;
+    width: 50%;
+    position: relative;
+    top: -250px;
+    left: 735px;
+    background-color: rgb(250, 250, 250);
+}
+
+.doc-head {
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    left: 350px;
+    font-size: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+.about-doc {
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    top: 110px;
+    width: 220px;
+    left: 300px;
+    display: inline-block;
+    padding-inline: 7%;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.doc-icon {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    height: 140px;
+}
+
+.baby-head {
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    left: 250px;
+    font-size: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+.about-baby {
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    top: 110px;
+    width: 220px;
+    left: 200px;
+    display: inline-block;
+    padding-inline: 7%;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.baby-icon {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    height: 110px;
+}
+
+.specilaity3 {
+    display: flex;
+    height: 350px;
+    width: 50%;
+    position: relative;
+    top: -250px;
+    right: 0px;
+    background-color: rgb(251, 250, 249);
+}
+
+.lab-head {
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    left: 350px;
+    font-size: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+.about-lab {
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    top: 110px;
+    width: 220px;
+    left: 300px;
+    display: inline-block;
+    padding-inline: 7%;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.lab-icon {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    height: 110px;
+}
+
+.specilaity4 {
+    display: flex;
+    height: 350px;
+    width: 50%;
+    position: relative;
+    top: -600px;
+    left: 735px;
+    background-color: rgb(254, 253, 254);
+}
+
+.emergency-head {
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    left: 250px;
+    font-size: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+.about-emergency {
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    top: 110px;
+    width: 220px;
+    left: 200px;
+    display: inline-block;
+    padding-inline: 7%;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.emergency-icon {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    height: 110px;
+}

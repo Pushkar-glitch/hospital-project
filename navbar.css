@@ -1,0 +1,228 @@
+.head-div {
+    position: sticky;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background: transparent;
+    background: rgba(253, 251, 251, 0.7);
+    backdrop-filter: blur(5px);
+    z-index: 100000;
+    justify-content: space-between;
+    display: inline-block;
+    align-items: center;
+    overflow: visible;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+.nav-option {
+    height: 100;
+    width: 100%;
+    position: relative;
+}
+
+#home-button {
+    /* styles for the home button */
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    left: 650px;
+    text-align: center;
+    display: flex;
+}
+
+#home-button:hover {
+    background-color: #92b9f3;
+}
+
+#home-button:active {
+    background-color: #86c8d5;
+}
+
+.header-logo {
+    display: flex;
+    position: relative;
+    left: 0px;
+    text-decoration: none;
+    border: 0;
+    width: 162px;
+    height: 113px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    height: 113px;
+    background: transparent;
+}
+
+#dropdown-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    left: 350px;
+    text-align: center;
+    display: flex;
+}
+
+#dropdown-button:hover {
+    background-color: #92b9f3;
+}
+
+#dropdown-button:active {
+    background-color: #003087;
+}
+
+#page-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    left: 350px;
+    display: flex;
+    text-align: center;
+}
+
+#page-button:hover {
+    background-color: #92b9f3;
+}
+
+#page-button:active {
+    background-color: #92b9f3;
+}
+
+#about-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    left: 650px;
+    text-align: center;
+    display: flex;
+}
+
+#about-button:hover {
+    background-color: #92b9f3;
+}
+
+#about-button:active {
+    background-color: #92b9f3;
+}
+
+#service-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    left: 650px;
+    text-align: center;
+    display: flex;
+}
+
+#service-button:hover {
+    background-color: #92b9f3;
+}
+
+#service-button:active {
+    background-color: #92b9f3;
+}
+
+#news-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    left: 350px;
+    text-align: center;
+    display: flex;
+}
+
+#news-button:hover {
+    background-color: #92b9f3;
+}
+
+#news-button:active {
+    background-color: #92b9f3;
+}
+
+#contact-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    left: 650px;
+    text-align: center;
+    display: flex;
+}
+
+#contact-button:hover {
+    background-color: #92b9f3;
+}
+
+#contact-button:active {
+    background-color: #92b9f3;
+}
+
+#emergency-button {
+    background-color: #f32121;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    left: 650px;
+    text-align: center;
+    display: flex;
+}
+
+#emergency-button:hover {
+    background-color: #c21d0f;
+}
+
+#emergency-button:active {
+    background-color: #481502;
+}

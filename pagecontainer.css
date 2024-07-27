@@ -1,0 +1,299 @@
+.main-page-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: #fafbfb;
+    top: 200px;
+    height: 1990px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.head-pageicon-container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 350px;
+    top: 1000px;
+    background-color: #fbf9f9;
+    overflow: hidden;
+}
+
+.head-pageicon-container h1 {
+    font-size: 35px;
+    color: #0b0b0b;
+    margin-top: 75px;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+
+.icon-doc-about {
+    justify-content: center;
+    position: absolute;
+    top: 140px;
+}
+
+.info-doc-about {
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+}
+
+.head-about-us {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 650px;
+    background-color: rgb(246, 248, 245);
+    top: 1350px;
+}
+
+.head-about-us-head {
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    font-size: 27px;
+    left: 100px;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.about-us-intro {
+    color: #101011;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    left: 45px;
+    top: 30px;
+    display: inline-table;
+    padding-inline: 7%;
+}
+
+.imagedoc {
+    position: absolute;
+    top: 0px;
+    left: 800px;
+    background: #fdfbfb;
+    display: flex;
+    width: 673px;
+    height: 650px;
+}
+
+.about-us-image {
+    position: relative;
+    left: 50px;
+    display: flex;
+    text-decoration: none;
+    border: 0;
+    width: 462px;
+    height: 613px;
+    margin: 0;
+    padding: 0;
+}
+
+.specilaity {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(250, 248, 249);
+    top: 0px;
+}
+
+.best-service {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 25px;
+    padding-left: 15px;
+    position: relative;
+    top: 50px;
+    height: 100px;
+    left: 380px;
+    width: 700px;
+}
+
+.hospital-icon {
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 700px;
+    height: 50px;
+}
+
+.specilaity1 {
+    display: flex;
+    height: 350px;
+    width: 50%;
+    position: relative;
+    top: 100px;
+    right: 0px;
+    background-color: rgb(247, 245, 248);
+}
+
+.specilaity2 {
+    display: flex;
+    height: 350px;
+    width: 50%;
+    position: relative;
+    top: -250px;
+    left: 735px;
+    background-color: rgb(250, 250, 250);
+}
+
+.doc-head {
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    left: 350px;
+    font-size: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+.about-doc {
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    top: 110px;
+    width: 220px;
+    left: 300px;
+    display: inline-block;
+    padding-inline: 7%;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.doc-icon {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    height: 140px;
+}
+
+.baby-head {
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    left: 250px;
+    font-size: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+.about-baby {
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    top: 110px;
+    width: 220px;
+    left: 200px;
+    display: inline-block;
+    padding-inline: 7%;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.baby-icon {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    height: 110px;
+}
+
+.specilaity3 {
+    display: flex;
+    height: 350px;
+    width: 50%;
+    position: relative;
+    top: -250px;
+    right: 0px;
+    background-color: rgb(251, 250, 249);
+}
+
+.lab-head {
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    left: 350px;
+    font-size: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+.about-lab {
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    top: 110px;
+    width: 220px;
+    left: 300px;
+    display: inline-block;
+    padding-inline: 7%;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.lab-icon {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    height: 110px;
+}
+
+.specilaity4 {
+    display: flex;
+    height: 350px;
+    width: 50%;
+    position: relative;
+    top: -600px;
+    left: 735px;
+    background-color: rgb(254, 253, 254);
+}
+
+.emergency-head {
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    left: 250px;
+    font-size: 20px;
+    text-align: center;
+    height: 400px;
+}
+
+.about-emergency {
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    top: 110px;
+    width: 220px;
+    left: 200px;
+    display: inline-block;
+    padding-inline: 7%;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.emergency-icon {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    height: 110px;
+}

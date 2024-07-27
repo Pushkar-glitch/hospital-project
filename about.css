@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 900px;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(218, 56, 56);
+}
+
+.image-container {
+    position: absolute;
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(253, 255, 255);
+    overflow-x: hidden;
+}
+
+.back-img {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav {
+    padding: 20px;
+    background: transparent;
+    background: rgba(253, 251, 251, 0.7);
+    backdrop-filter: blur(2px);
+    overflow: visible;
+    z-index: 100000;
+    position: sticky;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background: transparent;
+}
+
+.logo h1 {
+    color: #151616;
+    font-size: 28px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    right: 50px;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #0c7086;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.hero-container {
+    position: relative;
+    width: 1100px;
+    height: 600px;
+    background: transparent;
+    background: rgba(253, 251, 251, 0.7);
+    backdrop-filter: blur(-3px);
+    top: 200px;
+    left: 200px;
+}
+
+#head-hero {
+    position: relative;
+    color: #151616;
+    font-size: 40px;
+    top: 20px;
+}
+
+.head-container {
+    position: relative;
+    height: 120px;
+    width: 600px;
+    left: 470px;
+    top: 50px;
+    background: transparent;
+    backdrop-filter: blur(1px);
+}
+
+.container {
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    background-color: bisque;
+    left: 50px;
+    top: 50px;
+}
+
+.hero-image {
+    position: absolute;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#sub-hero {
+    position: relative;
+    position: absolute;
+    height: 380px;
+    width: 600px;
+    background: transparent;
+    backdrop-filter: blur(-2px);
+    left: 10px;
+    top: 140px;
+    font-size: 28px;
+    font-style: Open Sans;
+    padding-inline: 0%;
+    display: inline-table;
+    line-height: 1.5;
+}
+
+.doc-container {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-color: #f6f7f7;
+    top: 800px;
+}
+
+.doc1 {
+    position: absolute;
+    display: flex;
+    width: 230px;
+    height: 230px;
+    background-color: rgb(251, 251, 251);
+    left: 200px;
+    top: 50px;
+    overflow: hidden;
+    background-position: center;
+}
+
+.doc2 {
+    position: absolute;
+    width: 245px;
+    height: 230px;
+    background-color: rgb(14, 33, 176);
+    left: 500px;
+    top: 50px;
+    background-position: center;
+}
+
+.doc3 {
+    position: absolute;
+    background-position: center;
+    width: 230px;
+    height: 230px;
+    background-color: rgb(1, 187, 20);
+    left: 800px;
+    top: 50px;
+    overflow: hidden;
+}
+
+.doc4 {
+    position: absolute;
+    width: 230px;
+    background-position: center;
+    height: 230px;
+    background-color: rgb(156, 2, 115);
+    left: 1100px;
+    top: 50px;
+    overflow: hidden;
+}
+
+.docback-img {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}

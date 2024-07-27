@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 2500px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+section {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-head1 {
+    position: relative;
+    top: 280px;
+    color: #0f0f0f;
+    font-size: 40px;
+    margin-bottom: 20px;
+    left: 150px;
+}
+
+.hero-head2 {
+    position: relative;
+    top: 250px;
+    color: #0f0f0f;
+    font-size: 20px;
+    margin-bottom: 20px;
+    left: 150px;
+}
